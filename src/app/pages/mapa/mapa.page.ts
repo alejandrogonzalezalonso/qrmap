@@ -17,6 +17,7 @@ export class MapaPage implements OnInit, AfterViewInit {
 
   ngOnInit() {
 
+    
     let geo: any = this.route.snapshot.paramMap.get('geo');
     geo = geo.substr(4);
     geo = geo.split(',');
