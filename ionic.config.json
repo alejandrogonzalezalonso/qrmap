@@ -1,5 +1,8 @@
 {
   "name": "practica2",
-  "integrations": {},
+  "integrations": {
+    "capacitor": {},
+    "cordova": {}
+  },
   "type": "angular"
 }
