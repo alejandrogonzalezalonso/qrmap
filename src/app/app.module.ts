@@ -24,7 +24,7 @@ import { InAppBrowser } from '@ionic-native/in-app-browser/ngx';
     BrowserModule,
     IonicModule.forRoot(), 
     AppRoutingModule,
-    IonicStorageModule.forRoot()
+    IonicStorageModule.forRoot(),
   ],
   providers: [
     BarcodeScanner,
